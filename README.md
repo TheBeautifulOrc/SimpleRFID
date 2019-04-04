@@ -16,7 +16,8 @@ library. This section will guide you through the installation process.
 3. Select `Sketch > Include Library > Add .ZIP Library`
 4. Select the downloaded archive from Step `1`
 
-You can verify the installation by...
+You can verify the installation by selecting `Sketch > Include Library`. There
+should be a new entry in the menu with the name `SimpleRFID`.
 
 ## First Steps
 
