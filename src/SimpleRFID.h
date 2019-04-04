@@ -17,7 +17,7 @@ class SIMPLE_RFID
     bool available();
     String getID();
     private:
-    SoftwareSerial simpleRFID_SoftSerial;
+    SoftwareSerial _simpleRFID_SoftSerial;
 };
 
 #endif
