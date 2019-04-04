@@ -16,6 +16,7 @@ class SimpleRFID
     SimpleRFID(uint8_t rx_pin, uint8_t tx_pin);
     bool available();
     String readID();
+    ~SimpleRFID();
     private:
     SoftwareSerial* _simpleRFID_SoftSerial;
 };

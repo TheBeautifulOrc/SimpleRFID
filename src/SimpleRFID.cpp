@@ -8,6 +8,11 @@ SimpleRFID::SimpleRFID(uint8_t rx_pin, uint8_t tx_pin)
     _simpleRFID_SoftSerial->begin(9600); //The RFID readers baudrate is fixed at 9600
 }
 
+SimpleRFID::~SimpleRFID()
+{
+    delete _simpleRFID_SoftSerial;
+}
+
 bool SimpleRFID::available()
 {
     return _simpleRFID_SoftSerial->available() > 0;
