@@ -7,6 +7,7 @@ This example demonstrates how `SimpleRFID` can be used to detect an authorized R
 To run this example you need these components:
 - [Arduino](https://store.arduino.cc/arduino-genuino/boards-modules)
 - [Groove RFID Reader](http://wiki.seeedstudio.com/Grove-125KHz_RFID_Reader/)
+- At least one RFID tag (chip or card)
 - Buzzer
 - Wires
 - (Optional) Breed Board
@@ -14,5 +15,3 @@ To run this example you need these components:
 ## Setup
 
 ## Usage
-
-## Conclusion
