@@ -10,7 +10,7 @@ To run this example you need these components:
 - At least one RFID tag (chip or card)
 - Buzzer
 - Wires
-- (Optional) Breed Board
+- (Optional) Bread Board
 
 ## Setup
 
