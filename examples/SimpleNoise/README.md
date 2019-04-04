@@ -14,7 +14,7 @@ To run this example you need these components:
 
 ## Setup
 
-1. Open the example skecth by selecting `File > Examples > SimpleRFID > SimpleNoise > SimpleNoise`
+1. Open the example skecth by selecting `File > Examples > SimpleRFID > SimpleNoise`
 2. Connect your Ardunio to your PC
 3. Upload the code to your Arduino
 

@@ -1,0 +1,12 @@
+# Syntax Coloring Map For ExampleLibrary
+
+# Datatypes (KEYWORD1)
+SimpleRFID	KEYWORD1
+
+# Methods and Functions (KEYWORD2)
+isAvailable	KEYWORD2
+readID KEYWORD2
+
+# Instances (KEYWORD2)
+
+# Constants (LITERAL1)
