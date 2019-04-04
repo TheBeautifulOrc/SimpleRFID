@@ -13,11 +13,11 @@
 class SimpleRFID
 {
     public:
-    SimpleRFID(int tx_pin, int rx_pin);
+    SimpleRFID(uint8_t rx_pin, uint8_t tx_pin);
     bool available();
     String readID();
     private:
-    SoftwareSerial _simpleRFID_SoftSerial;
+    SoftwareSerial* _simpleRFID_SoftSerial;
 };
 
 #endif
