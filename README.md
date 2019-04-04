@@ -14,7 +14,7 @@ library. This section will guide you through the installation process.
 1. [Download](https://github.com/TheBeautifulOrc/SimpleRFID/archive/master.zip) the current version of the `SimpleRFID` library
 2. Open the Arduino IDE
 3. Select `Sketch > Include Library > Add .ZIP Library`
-4. Select the downloaded archive from Step `1`
+4. Select the downloaded archive from `Step 1`
 
 You can verify the installation by selecting `Sketch > Include Library`. There
 should be a new entry in the menu with the name `SimpleRFID`.
