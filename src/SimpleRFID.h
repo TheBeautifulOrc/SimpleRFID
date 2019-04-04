@@ -10,12 +10,12 @@
 #include "Arduino.h"
 #include "SoftwareSerial.h"
 
-class SIMPLE_RFID
+class SimpleRFID
 {
     public:
-    SIMPLE_RFID(byte tx_pin, int rx_pin);
+    SimpleRFID(int tx_pin, int rx_pin);
     bool available();
-    String getID();
+    String readID();
     private:
     SoftwareSerial _simpleRFID_SoftSerial;
 };
