@@ -24,7 +24,7 @@ void loop() {
   if (simple_rfid.available()) //check if data is ready to be read
   {
     ID = simple_rfid.readID(); //read the ID
-    Serial.println(); //print the String 
+    Serial.println(ID); //print the String 
   }
 
   //Here you can add additional behaviour if wanted.
