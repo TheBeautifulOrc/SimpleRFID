@@ -2,9 +2,9 @@
 This project was created to support the [Make Your School](https://www.makeyourschool.de) hacks.
 
 The [Groove - 125KHz RFID Reader](http://wiki.seeedstudio.com/Grove-125KHz_RFID_Reader/)
-is a simple sensor that can be used with an [Arduino](https://www.arduino.cc)
-microcontroller. This library makes it easy to use the RFID reader to detect and
-read RFID tags, like chips or cards.
+is a sensor component that can be used with an [Arduino](https://www.arduino.cc)
+microcontroller. This library makes it easy to use said RFID reader in order to detect and
+read RFID tags (e.g. chips or cards).
 
 ## Installation
 
@@ -21,7 +21,7 @@ should be a new entry in the menu with the name `SimpleRFID`.
 
 ## First Steps
 
-To get familiar with the functionalities provided by `SimpleRFID` we recommend to
+To get familiar with the functionalities provided by `SimpleRFID` we recommend you to
 have a look at the [examples](examples/).
 
 ## Contributers
