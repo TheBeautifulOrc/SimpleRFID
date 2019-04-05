@@ -12,14 +12,13 @@
 #include "SimpleRFID.h"
 
 String authorized_tags = "";  //this string will hold all registered IDs, seperated by whitespaces
-SimpleRFID simple_rfid;
 const uint8_t rfid_rx_pin = 2;
 const uint8_t rfid_tx_pin = 3;
-const uint8_t buzzer_pin = 4;
-const uint8_t button_pin = 6; 
+SimpleRFID simple_rfid(rfid_rx_pin, rfid_tx_pin);
+const uint8_t buzzer_pin = 5;
+const uint8_t button_pin = 7; 
 
 void setup() {
-  simple_rfid(rfid_rx_pin, rfid_tx_pin);
   pinMode(buzzer_pin, OUTPUT);
   pinMode(button_pin, OUTPUT);
 }

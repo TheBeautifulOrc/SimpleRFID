@@ -10,15 +10,14 @@
 
 #include "SimpleRFID.h"
 
-SimpleRFID simple_rfid;
 String ID = "";
 const uint8_t rfid_rx_pin = 2;
 const uint8_t rfid_tx_pin = 3;
+SimpleRFID simple_rfid(rfid_rx_pin, rfid_tx_pin);
 
 void setup() 
 {
   Serial.begin(9600); 
-  simple_rfid(rfid_rx_pin, rfid_tx_pin);
 }
 
 void loop() {
