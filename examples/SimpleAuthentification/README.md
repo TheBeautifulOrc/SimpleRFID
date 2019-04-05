@@ -16,7 +16,7 @@ To run this example you need these components:
 
 ## Setup
 
-1. Open the example sketch by selecting `File > Examples > SimpleRFID > SimpleNoise`
+1. Open the example sketch by selecting `File > Examples > SimpleRFID > SimpleAuthentificator`
 2. Connect the RFID-reader to your Arduino (RX to PIN2, TX to PIN3)
 3. Connect the buzzer to your Arduino as well (SIG to PIN5)
 4. Finally connect the button to your Arduino (SIG to PIN7)
