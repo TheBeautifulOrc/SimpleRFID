@@ -5,7 +5,7 @@ SimpleRFID	KEYWORD1
 
 # Methods and Functions (KEYWORD2)
 available	KEYWORD2
-readID KEYWORD2
+readID	KEYWORD2
 
 # Instances (KEYWORD2)
 
