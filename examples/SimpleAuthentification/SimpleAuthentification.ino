@@ -20,7 +20,7 @@ const uint8_t button_pin = 7;
 
 void setup() {
   pinMode(buzzer_pin, OUTPUT);
-  pinMode(button_pin, OUTPUT);
+  pinMode(button_pin, INPUT);
 }
 
 void loop() {
@@ -28,7 +28,7 @@ void loop() {
   {
     if (simple_rfid.available()) 
     {
-      String new_ID = simple_rfid.read();
+      String new_ID = simple_rfid.readID();
       int index = authorized_tags.indexOf(new_ID);
       if (index > 0) 
       {
@@ -47,7 +47,7 @@ void loop() {
   {
     if (simple_rfid.available()) 
     {
-      String new_ID = simple_rfid.read();
+      String new_ID = simple_rfid.readID();
       int index = authorized_tags.indexOf(new_ID);
       if (index > 0) 
       {
@@ -68,7 +68,7 @@ void beep(int duration, int times)
   {
     digitalWrite(buzzer_pin, HIGH);
     delay(duration/2);
-    digitalWrite(buzzer_pin, HIGH);
+    digitalWrite(buzzer_pin, LOW);
     delay(duration/2);
   }
 }
