@@ -2,5 +2,5 @@
 
 This folder contains examples to get familiar with `SimpleRFID`.
 
-- [SimpleNoise](SimpleNoise) is a simple example that only detects if there's any RFID tag close to the reader.
-- [SimpleGuard](SimpleGuard) reacts differently on different RFID tags.
+- [SimpleRead](SimpleRead) is a simple example that detects if there's any RFID tag close to the reader and prints out the tags ID onto the serial monitor.
+- [SimpleAthentification](SimpleAuthentification) reacts differently to different RFID tags, depending on whether they've been registered previously.
