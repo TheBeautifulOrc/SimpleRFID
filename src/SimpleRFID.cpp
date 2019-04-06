@@ -37,7 +37,7 @@ String SimpleRFID::readID()
             result += (char) temp_char; //append valid character to output-string
         }
     }while(check_int != 3); //the control-character "end of message" ends the reading process
-    while(_simpleRFID_SoftSerial.available())
+    while(_simpleRFID_SoftSerial->available())
     {
         char junk = _simpleRFID_SoftSerial->read();    //clear input buffer in case the reader read twice
     }
