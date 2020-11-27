@@ -24,10 +24,6 @@ should be a new entry in the menu with the name `SimpleRFID`.
 To get familiar with the functionalities provided by `SimpleRFID` we recommend you to
 have a look at the [examples](examples/).
 
-## Contributers
-
-If you would like
-
 ## License
 
 This project is licensed under the [MIT License](LICENSE). Feel free to use this
